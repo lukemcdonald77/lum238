@@ -30,14 +30,16 @@
 				<p id="contact">
 					<a href="https://www.linkedin.com/in/luke-mcdonald-usask/" target="_blank"><img id="linkedIn"src="LI-In-Bug.png" width=45px></a>
 					<a href="https://www.instagram.com/lukemcdonald3/" target="_blank"><img id="instaGram"src="Instagram_Glyph_White.png" width=40px></a>
-					<a id='mailButton'  href='#' onclick = 'return false' target="_blank"><img id="mail"src="mail_logo.png" width=50px></a>	
+					<a id='mailButton' href='#' onclick = 'return false' target="_blank"><img id="mail"src="mail_logo.png" width=50px></a>	
 
 				</p>
 				<div id='popUpEMAIL'>
 					<h1 id="header">please enter an email</h1>
 					<p id="subtitle"> (this is in order to limit spam)</p>
 					<div id ="popUpBody">
-						<input type="text" id="entryPrompt"></input>
+						<form action="process.php" method="post">
+							<input type="text" id="entryPrompt">
+							<input type="submit" name="submit">
 					</div>
 				</div>
 			</div>

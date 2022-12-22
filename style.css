@@ -31,12 +31,12 @@ body{
  	outline: none;
  	text-decoration: none;
   	width: auto;
-	font-size: 40px;
+	font-size: 1em;
 	grid-column: 1;
 	grid-row: 1;
 }
 #blurb{
-	font-size: 2.4em;
+	font-size: 1.2em;
 	align-self: center;
 	grid-column: 2;
 	grid-row: 1;
@@ -52,18 +52,18 @@ body{
     margin-top: 1em;
 }
 #what{
-	font-size: 40px;
+	font-size: 1em;
 	grid-column: 1;
 	grid-row: 2;
 }
 #goal{
-	font-size: 1.5em;
+	font-size: 1em;
 	align-self: center;
 	grid-column: 2;
 	grid-row: 2;
 }
 #where{
-	font-size: 40px;
+	font-size: 1em;
 	grid-column: 1;
 	grid-row: 3;
 }
