@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet"; href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Luke McDonald Page</title>
+	</head>
+	<body>
+		<canvas id="backDrop" width=640px height=260px ></canvas>
+		<div id="webFrame">
+			<h1 class="border"></h1>
+			<div id='secondHalf'>
+				<!--<p id="quote">Quote</p>-->
+			</div>
+			<div, id="blurbGrid">
+				<button id="who">
+					who i am: </button>
+				<p id="blurb">
+					luke mcdonald
+				</p>
+				<button id="what">
+					what is my goal: </button>
+				<p id="goal">
+					develop my coding skills and apply them to valuable projects
+				</p>
+				<button id="where">
+					where you can find me: </button>
+				<p id="contact">
+					<a href="https://www.linkedin.com/in/luke-mcdonald-usask/" target="_blank"><img id="linkedIn"src="LI-In-Bug.png" width=45px></a>
+					<a href="https://www.instagram.com/lukemcdonald3/" target="_blank"><img id="instaGram"src="Instagram_Glyph_White.png" width=40px></a>
+					<a id='mailButton' href='#' onclick = 'return false' target="_blank"><img id="mail"src="mail_logo.png" width=50px></a>	
+
+				</p>
+				<div id='popUpEMAIL'>
+					<h1 id="header">please enter an email</h1>
+					<p id="subtitle"> (this is in order to limit spam)</p>
+					<div id ="popUpBody">
+						<form action="process.php" method="post">
+							<input type="text" id="entryPrompt">
+							<input type="submit" name="submit">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	<script src="index.js"></script>
+	</body>
+</html>
